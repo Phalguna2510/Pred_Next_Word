@@ -1,2 +1,4 @@
 # Pred_Next_Word
-LSTM-based next-word prediction model trained on The Adventures of Tom Sawyer. Includes custom text cleaning, tokenization, and sequence generation. Built using TensorFlow/Keras with embedding and stacked LSTM layers. Generates context-aware text continuations from a given seed input.
+Built a next-word prediction model using LSTM (Long Short-Term Memory) networks in TensorFlow, trained on the Adventures of Tom Sawyer dataset. Preprocessed raw text with a custom NLP pipeline including HTML tag removal, URL/email filtering, and sequence generation. Tokenized the cleaned data and trained a neural network with an embedding layer, stacked LSTMs, and dense layers to predict the next word in a sentence. Achieved vocabulary-aware predictions using Keras' tokenizer and softmax output layer. Deployed the model to generate coherent text continuations given a seed phrase. Integrated the workflow in Google Colab with Google Drive for dataset storage and model persistence.
+
+Future Scope: Planning to fine-tune the model on personal WhatsApp chat data to generate personalized responses and simulate my natural texting style.
